@@ -1,0 +1,13 @@
+[package]
+name = "fiddle"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+fastly = "^0.9.0"
+
+[profile.dev]
+debug = false
+debug-assertions = false
+overflow-checks = false
+codegen-units = 512
